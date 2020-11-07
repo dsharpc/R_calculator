@@ -1,9 +1,6 @@
 #!/usr/bin/Rscript
 # CALCULATOR
 
-# IMPORT FUNCTIONS FROM FILES
-source('functions/other_function.R')
-
 # OBTAIN VALUES TO RUN THE CALCULATION
 cat("Enter first number: ")
 number_1 <- readLines("stdin",n=1)
@@ -14,11 +11,12 @@ number_2 <- as.numeric(number_2)
 cat("Enter operation. One of (sum, substract, multiply, divide, power, sqrt): ")
 operation <- readLines("stdin",n=1)
 
+cat("#### PARAMETERS ####\n")
+cat(paste("Number 1: ", number_1, "\n"))
+cat(paste("Number 2: ", number_2, "\n"))
+cat(paste("Operation: ", operation, "\n"))
 
-print(number_1)
-print(number_2)
-print(operation)
-
+cat("\n\n#### RESULT ####\n")
 if (operation == 'sum'){
     print("REPLACE THIS FUNCTION WITH A SUM FUNCTION")
 }else if(operation == 'substract'){
@@ -32,6 +30,5 @@ if (operation == 'sum'){
 }else if(operation == "sqrt"){
     print("REPLACE THIS FUNCTION WITH A SQRT FUNCTION")
 }else{
-    response <- other_function(operation)
-    cat(response)
+    print("NOT A LEGAL FUNCTION")
 }
