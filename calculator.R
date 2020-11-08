@@ -4,6 +4,7 @@
 # IMPORT FUNCTIONS
 source('functions/other_function.R')
 source('functions/power_function.R')
+source('functions/substract_function.R')
 # OBTAIN VALUES TO RUN THE CALCULATION
 cat("Enter first number: ")
 number_1 <- readLines("stdin",n=1)
@@ -23,7 +24,7 @@ cat("\n\n#### RESULT ####\n")
 if (operation == 'sum'){
     print(number_1+number_2)
 }else if(operation == 'substract'){
-    print("REPLACE THIS FUNCTION WITH A SUBSTRACT FUNCTION")
+    substract(number_1, number2)
 }else if(operation == "multiply"){
     print("REPLACE THIS FUNCTION WITH A MULTIPLY FUNCTION")
 }else if(operation == "divide"){
