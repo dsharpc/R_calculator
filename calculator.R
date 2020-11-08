@@ -23,7 +23,7 @@ cat("\n\n#### RESULT ####\n")
 if (operation == 'sum'){
     print(number_1+number_2)
 }else if(operation == 'substract'){
-    print("REPLACE THIS FUNCTION WITH A SUBSTRACT FUNCTION")
+    print(number_1-number_2)
 }else if(operation == "multiply"){
     print("REPLACE THIS FUNCTION WITH A MULTIPLY FUNCTION")
 }else if(operation == "divide"){
