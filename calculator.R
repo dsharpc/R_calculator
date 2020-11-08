@@ -21,8 +21,8 @@ cat(paste("Operation: ", operation, "\n"))
 
 cat("\n\n#### RESULT ####\n")
 if (operation == 'sum'){
-    print("REPLACE THIS FUNCTION WITH A SUM FUNCTION")
-}else if(operation == 'multiply'){
+    print(number_1+number_2)
+}else if(operation == 'substract'){
     print("REPLACE THIS FUNCTION WITH A SUBSTRACT FUNCTION")
 }else if(operation == "SUBSTRACT"){
     print("REPLACE THIS FUNCTION WITH A MULTIPLY FUNCTION")
