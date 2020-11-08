@@ -3,7 +3,7 @@
 
 # IMPORT FUNCTIONS
 source('functions/other_function.R')
-
+source('functions/power_function.R')
 # OBTAIN VALUES TO RUN THE CALCULATION
 cat("Enter first number: ")
 number_1 <- readLines("stdin",n=1)
@@ -29,7 +29,7 @@ if (operation == 'sum'){
 }else if(operation == "divide"){
     print("REPLACE THIS FUNCTION WITH A DIVIDE FUNCTION")
 }else if(operation == "power"){
-    print("REPLACE THIS FUNCTION WITH A POWER FUNCTION")
+    power_function(number_1, number_2)
 }else if(operation == "sqrt"){
     print("REPLACE THIS FUNCTION WITH A SQRT FUNCTION")
 }else{
