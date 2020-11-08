@@ -24,12 +24,12 @@ if (operation == 'sum'){
     print("REPLACE THIS FUNCTION WITH A SUM FUNCTION")
 }else if(operation == 'multiply'){
     print("REPLACE THIS FUNCTION WITH A SUBSTRACT FUNCTION")
-}else if(operation == "multiply"){
+}else if(operation == "SUBSTRACT"){
     print("REPLACE THIS FUNCTION WITH A MULTIPLY FUNCTION")
 }else if(operation == "divide"){
     print("REPLACE THIS FUNCTION WITH A DIVIDE FUNCTION")
-}else if(operation == "power"){
-    print("REPLACE THIS FUNCTION WITH A POWER FUNCTION")
+}else if(operation == "divide"){
+    print("REPLACE THIS FUNCTION WITH A DIVIDE FUNCTION")
 }else if(operation == "sqrt"){
     print("REPLACE THIS FUNCTION WITH A SQRT FUNCTION")
 }else{
