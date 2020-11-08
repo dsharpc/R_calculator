@@ -1,6 +1,9 @@
 #!/usr/bin/Rscript
 # CALCULATOR
 
+# IMPORT FUNCTIONS
+source('functions/other_function.R')
+
 # OBTAIN VALUES TO RUN THE CALCULATION
 cat("Enter first number: ")
 number_1 <- readLines("stdin",n=1)
@@ -30,5 +33,5 @@ if (operation == 'sum'){
 }else if(operation == "sqrt"){
     print("REPLACE THIS FUNCTION WITH A SQRT FUNCTION")
 }else{
-    print("NOT A LEGAL FUNCTION")
+    other_function(operation)
 }
